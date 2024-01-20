@@ -1,0 +1,283 @@
+<!Doctype html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resume</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<style>
+
+body{
+	background: #ADD8E6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 1000px;
+	margin: 50px;
+	background: white;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.container .left_side{
+	position: relative;
+	background: #0e2a57;
+	padding: 40px;
+}
+
+.profile {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profile .imgBx{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.profile .imgBx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.profile h2{
+	color: white;
+	font-size: 1.2em;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.profile h2 span{
+	font-size: 0.8em;
+	font-weight: 300;
+}
+
+.contact{
+	padding-top: 40px;
+}
+
+.title{
+	color: white;
+	text-text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.contact ul{
+	position: relative;
+}
+
+.contact ul li{
+	position: relative;
+	list-style: none;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.contact ul li .icon{
+	display: inline-block;
+	width: 30px;
+	font-size: 18px;
+	color: lightblue;
+}
+
+.contact ul li span{
+	color: white;
+	font-weight: 300;
+}
+
+.skills{
+	padding-top: 40px;
+}
+
+.skills ul{
+	position: relative;
+}
+
+.skills ul li{
+	position: relative;
+	margin: 10px;
+	color: white;
+}
+
+.container .right_side{
+	position: relative;
+	background: white;
+	padding: 40px;
+}
+
+.info h2{
+	color: #0e2a57;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+.info p{
+	position: relative;
+	font-size: 1em;
+	font-weight: 300;
+	text-align: justify;
+}
+
+.educ h2{
+	color: #0e2a57;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+
+.educ{
+	position: relative;
+	font-size: 1em;
+	font-weight: 300;
+	text-align: justify;
+}
+
+.educ h3{
+	position: relative;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+.exp h2{
+	color: #0e2a57;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+.exp h3{
+	position: relative;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+.exp h3 span{
+	font-size: 0.8em;
+	font-weight: 300;
+}
+	</style>
+	<body>
+		<div class="container">
+			<div class="left_side">
+				<div class="profile">
+					<div class="imgBx">
+						<img src="https://i.imgur.com/AxX2gaB.png">
+					</div>
+						<h2>Leo Jelo Abellanida<br><span>Programmer</span></h2>
+				</div>
+				
+				<div class="contact">
+					<h3 class="title">Contact Info</h3>
+					<ul>
+						<li>
+						<span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+						<span class="text">+63 916 600 6994</span>
+						</li>
+						<li>
+						<span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+						<span class="text">leojelo07@gmail.com</span>
+						</li>
+						<li>
+						<span class="icon"><i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+						<span class="text">Leo Jelo Abellanida</span>
+						</li>
+						<li>
+						<span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+						<span class="text">Manila RiverCity Residences, Sta.Ana Manila</span>
+						</li>
+					</ul>
+				</div>
+					
+					
+					<div class="skills">
+					<h3 class="title">Skills</h3>
+					<ul>
+						<li>
+						Programming
+						</li>
+						<li>
+						Coding
+						</li>
+						<li>
+						Software
+						</li>
+						<li>
+						Html
+						</li>
+						<li>
+						Critical Thinking
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="right_side">
+				<div class="info">
+					<h2>Career Objective</h2>
+					<p>
+					Seeking a challenging position as a Programmer, utilizing my technical skills in programming and software development to contribute to the growth 
+					of the organization. With strong problem-solving skills and attention to detail, I am committed to delivering high-quality code and ensuring customer satisfaction.
+					</p>
+				</div>
+				<div class="educ">
+					<h2>Educational Background</h2>
+					<h3>College</h3>
+						<ul>
+							<li>Finished Bachelor of Science in Information Technology Specialized in Web and Mobile Application</li>
+						</ul>
+						<p>School: FEU Institute of Technology - P. Paredes St., Sampaloc, Manila, Manila, Philippines 2022-2026</p>
+					<h3>Highschool</h3>
+						<ul>
+							<li>Finished Grade 7-12</li>
+						</ul>
+						<p>School: Jose Rizal University - 80 Shaw Boulevard Mandaluyong City | 2016-2022</p>
+					<h3>Elemenetary</h3>
+						<ul>
+							<li>Finished Grade 1-6</li>
+						</ul>
+						<p>School: Fernando Maria Guerrero - Pedro Gil Street, Barangay 812, Manila, Metro Manila 2004 – 2010</p>
+				</div>
+				<div class="exp">
+					<h2>Experience</h2>
+					<h3>Senior Programming<br>
+					<span>Wardiere Inc. | 2030 - 2033</span></h3>
+						<ul>
+							<li>Coordinate program systems to ensure compatibility with web designs.</li>
+							<li>Work with UI/UX designers on web project development.</li>
+						</ul>
+						
+					<h3>Junior Programing<br>
+					<span>Studio Shodwe | 2026 - 2030</span></h3>
+						<ul>
+							<li>Assist in basic programming workshops.</li>
+							<li>Responsible for programming web commercial ads.</li>
+						</ul>
+				</div>
+			</div>
+	</body>
+</html>
