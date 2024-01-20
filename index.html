@@ -4,9 +4,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Resume</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	
+	<script type="text/javascript" src="change.js"></script>
+
 	<style>
 
 body{
@@ -15,6 +16,15 @@ body{
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+}
+
+#colorChangeButton {
+	position: relative;
+    padding: 10px;
+    margin: 10px 0;
+	bottom: -50px;
+	left: 60px;
+    cursor: pointer;
 }
 
 .container{
@@ -234,7 +244,7 @@ body{
 						</li>
 					</ul>
 				</div>
-				
+				<button id="colorChangeButton" onclick="changeColors()">Change Colors</button>
 			</div>
 			<div class="right_side">
 				<div class="info">
